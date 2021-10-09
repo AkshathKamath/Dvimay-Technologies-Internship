@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@700&display=swap");
+.container9 {
+  min-height: 55vh;
+  display: flex;
+}
+.container9 .imageContainer {
+  width: 50%;
+  height: 55vh;
+  background-color: rgb(96, 96, 96);
+}
+.container9 .textContainer {
+  width: 50%;
+  height: 55vh;
+  background-color: rgb(40, 40, 40);
+  overflow: scroll;
+}
+.container9 .textContainer h3 {
+  font-family: "Noto Sans JP", sans-serif;
+  color: white;
+  padding: 3% 0 0 3%;
+}
+.container9 .textContainer h3 span {
+  border-bottom: 4px solid rgb(38, 127, 243);
+}
+.container9 .textContainer p {
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: small;
+  padding: 3% 12% 3% 2%;
+  color: rgb(184, 184, 184);
+}
+.container9 .textContainer .grid-container {
+  height: 34vh;
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(2, 1fr);
+}
+.container9 .textContainer .grid-container .grid-item {
+}
+.container9 .textContainer .grid-container .grid-item h4 {
+  padding: 2% 0 2% 14%;
+  color: white;
+  font-family: "Noto Sans JP", sans-serif;
+}
+.container9 .textContainer .grid-container .grid-item p {
+  padding: 2% 3%;
+  color: rgb(176, 176, 176);
+}
+.container9 .textContainer .grid-container .grid-item h4 img {
+  height: 4vh;
+  width: 2vw;
+  border-radius: 50%;
+  padding-right: 2%;
+  position: relative;
+  top: 2%;
+}

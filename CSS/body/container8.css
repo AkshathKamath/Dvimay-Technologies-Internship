@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@700&display=swap");
+.container8 {
+  min-height: 70vh;
+}
+.container8 h2 {
+  text-align: center;
+  color: rgb(67, 190, 247);
+  font-family: "Noto Sans JP", sans-serif;
+  padding-top: 2%;
+}
+.container8 h2 img {
+  height: 4vh;
+  width: 2vw;
+  border-radius: 50%;
+  padding-right: 0.5%;
+}
+.container8 h2 span {
+  border-bottom: 4px solid rgb(96, 96, 96);
+}
+.container8 ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 2% 0;
+}
+.container8 ul li {
+  padding: 0 1%;
+}
+.container8 ul li button {
+  cursor: pointer;
+  padding: 3% 8%;
+  font-family: "Noto Sans JP", sans-serif;
+  color: rgb(96, 96, 96);
+  background-color: rgb(232, 232, 232);
+  border: 0;
+}
+.container8 ul li button:hover {
+  padding: 3% 15%;
+}
+.container8 .grid-container {
+  display: grid;
+  height: 50vh;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(4, 1fr);
+  padding: 4% 8%;
+}
+.container8 .grid-container .grid-item {
+  background-color: rgb(96, 96, 96);
+  border: 1px solid white;
+}
+#grid-item1 {
+  background-color: rgb(38, 127, 243);
+  align-items: center;
+  display: flex;
+}
+#grid-item1 img {
+  height: 4vh;
+  width: 2vw;
+  border-radius: 50%;
+  justify-content: center;
+  margin-left: 25%;
+}
